@@ -1,12 +1,17 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# Data Pipeline: Tabular and JSON Extraction & Transformation
 
-## Description
-Optional section to provide a more detailed overview of the project.
+This project provides utility functions to extract, transform, and load data from various file formats including CSV, Parquet, and JSON.
 
-## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
+## Features
 
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
+- Extract tabular data from `.csv` or `.parquet` files.
+- Flatten nested JSON data into a DataFrame.
+- Transform electricity sales data by filtering relevant sectors and extracting year/month.
+- Save transformed data to `.csv` or `.parquet`.
 
+## Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
